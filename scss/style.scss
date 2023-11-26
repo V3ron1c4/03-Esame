@@ -1,0 +1,195 @@
+@import "variabili";
+@import "header";
+@import "chisono";
+@import "progetti";
+@import "contatti";
+@import "footer";
+@import "mixing";
+
+
+
+* {
+    box-sizing: inherit;
+
+    &::before {
+        box-sizing: inherit;
+    }
+
+    &::after {
+        box-sizing: inherit;
+    }
+}
+
+html {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: $background-color_1;
+    @include htmlebody;
+}
+
+body {
+    margin: 0;
+    @include htmlebody;
+}
+
+a {
+    color: $color_1;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*-- Main Immagine --*/
+.main-container {
+    max-width: 1564px;
+    padding: 8px 16px;
+
+    margin {
+        left: auto;
+        right: auto;
+    }
+
+    .display-container {
+        max-width: 1500px;
+
+        margin {
+            left: auto;
+            right: auto;
+        }
+
+        position: relative;
+        letter-spacing: 4px;
+
+        .img-home {
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+            border-style: none;
+            width: 1500px;
+            overflow: clip;
+            aspect-ratio: auto 16 / 9;
+        }
+
+        .display-middle {
+            margin-top: 16px;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            .display-scritta {
+                color: $color_3;
+                font-size: 36px;
+                font-family: $font-family_2;
+                font-weight: 400;
+                margin: 10px 0;
+                display: block;
+                margin-block-start: 0.67em;
+                margin-block-end: 0.67em;
+                margin-inline-start: 0;
+                margin-inline-end: 0;
+
+                .logo-mini {
+                    color: $color_3;
+                    background-color: $background-color_3;
+                    padding: 8px 16px;
+                    opacity: 0.75;
+                    font-family: $font-family_1;
+                }
+
+                .testo-mini {
+                    color: $color_2;
+
+                    @media (max-width: 767px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    /*-- Main Immagine --*/
+
+    /*-- Main --*/
+    .section-container {
+        padding: 32px 16px;
+
+        @media (min-width: 1024px) {
+            margin: 0 auto;
+            max-width: 80%;
+        }
+
+        .main-testo {
+            border-color: $border-color_1;
+            padding-top: 100px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #ccc;
+            font-family: $font-family_1;
+            font-weight: 400;
+            margin: 10px 0;
+            font-size: 24px;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding: 16px 0;
+            color: $color_4;
+        }
+    }
+
+    /*-- Main --*/
+
+
+    /*-- Singolo Progetto --*/
+    .progettosingolo {
+        padding: 0 8px;
+        width: 100%;
+
+        @media (min-width: 1024px) {
+            margin: 0 auto;
+            max-width: 80%;
+        }
+
+        .display-singoloprogetto {
+            padding: 0 8px;
+            margin-bottom: 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-auto-rows: 200px;
+            grid-auto-flow: dense;
+            gap: 30px;
+            width: 100%;
+
+            @media (min-width:768px) {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                grid-auto-rows: 200px;
+            }
+
+            .progetto .img-progetto {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.4s;
+                user-select: none;
+                vertical-align: middle;
+                border-style: none;
+                overflow: clip;
+            }
+
+
+            .singolo-progetto .singoloprogetto-testo {
+                padding: 16px;
+                position: relative;
+
+                p {
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+
+    /*-- Singolo Progetto --*/
+}

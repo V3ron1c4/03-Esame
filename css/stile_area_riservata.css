@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8c6fa;
+}
+
+/* Stile per il titolo */
+h1 {
+    color: #520452;
+    font-size: 32px;
+    text-align: center;
+    margin: 30px;
+}
+
+/* ########## MENU ########## */
+
+/* Stile generale per il menu */
+.menu-areaRis {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin-bottom: 100px;
+}
+
+/* Stile per il menu */
+.menu-areaRis ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile per i link del menu */
+.menu-areaRis ul a {
+    color: #a600ff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.menu-areaRis ul a:hover {
+    color: #f994fd;
+}
+
+/* ########## MACROSEZIONE ########## */
+
+/* Stile generale per la macrosezione */
+.macro-sezione {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Stile per il titolo della macrosezione */
+.macro-sezione h2 {
+    color: #4b014e;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Stile per la tabella */
+.macro-sezione table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Stile per le celle della tabella */
+.macro-sezione table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+/* Stile per i link (Modifica, Elimina, ecc.) */
+.macro-sezione a {
+    color: #f994fd;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.macro-sezione a:hover {
+    color: #a600ff;
+}
+
+/* Stile per i pulsanti (Aggiungi, Invia, ecc.) */
+.macro-sezione input[type="submit"],
+.macro-sezione input[type="button"] {
+    background-color: #a600ff;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.macro-sezione input:hover[type="submit"],
+.macro-sezione input:hover[type="button"] {
+    background-color: #4b014e;
+}
+
+form {
+    display: inline-block;
+    margin-right: 10px;
+}

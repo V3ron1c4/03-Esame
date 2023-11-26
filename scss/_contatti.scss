@@ -1,0 +1,149 @@
+ .contatti-testo {
+     margin: 0 8px;
+     padding: 0 16px;
+
+     p {
+         margin: 0;
+     }
+
+     @media (min-width: 1024px) {
+         margin: 0 auto;
+         max-width: 80%;
+     }
+ }
+
+ .span-contatti {
+     margin: 16px;
+     margin-top: 32px;
+
+     @media (min-width: 1024px) {
+         margin: 32px auto;
+         max-width: 80%;
+         padding: 0;
+     }
+
+     .contatti {
+         display: flex;
+         color: $color_6;
+         font-size: 18px;
+         margin: 8px 32px;
+         align-items: center;
+
+         .icone-contatti {
+             width: 30px;
+             height: 30px;
+             margin: 5px;
+         }
+     }
+ }
+
+ .form-mappa {
+     width: 100%;
+     display: grid;
+
+     @media (min-width: 768px) {
+         margin: 0 auto;
+         max-width: 100%;
+         padding: 0;
+     }
+
+     @media (min-width: 1024px) {
+         margin: 0 auto;
+         max-width: 80%;
+     }
+
+     .contatti-mappa {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         gap: 15px;
+         width: 100%;
+         padding: 0 16px 40px;
+
+         @media (min-width: 768px) {
+             grid-template-columns: repeat(2, 1fr);
+         }
+
+         .form .form-container {
+             background-color: $background-color_5;
+             width: 300px;
+             padding: 20px;
+             margin: 40px auto;
+             display: flex;
+             flex-direction: column;
+             border-radius: 10px;
+
+             label .error {
+                 color: #ff0000;
+             }
+
+             input {
+                 padding: 9px;
+                 border: none;
+                 border-radius: 5px;
+                 outline: none;
+                 font-family: $font-family_3;
+                 cursor: text;
+
+                 &:focus {
+                     background-color: $background-color_6;
+                 }
+             }
+
+             textarea {
+                 padding: 9px;
+                 border: none;
+                 border-radius: 5px;
+                 outline: none;
+                 font-family: $font-family_3;
+                 resize: vertical;
+             }
+
+             button {
+                 padding: 9px;
+                 border: none;
+                 border-radius: 5px;
+                 outline: none;
+                 font-family: $font-family_3;
+                 cursor: pointer;
+                 font-weight: 500;
+                 background-color: $background-color_1;
+                 font-family: $font-family_3;
+                 color: $color_1;
+                 font-size: 1em;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 width: 50%;
+                 margin-left: 25%;
+                 margin-top: 10px;
+
+                 &:hover {
+                     background-color: $background-color_7;
+                     color: $color_3;
+                 }
+             }
+
+             .icone-contatti {
+                 width: 30px;
+                 height: 30px;
+                 margin: 5px;
+             }
+         }
+
+
+         .mappa {
+             display: grid;
+             width: 99%;
+             align-items: center;
+             margin: 40px auto;
+             padding: 20px;
+
+             iframe {
+                 width: 99%;
+                 height: 99%;
+                 overflow: hidden;
+                 border: 1px transparent;
+             }
+         }
+     }
+ }

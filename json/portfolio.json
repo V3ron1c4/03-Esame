@@ -1,0 +1,99 @@
+[
+    {
+        "id": "01",
+        "nome": "Centro Commerciale",
+        "url": "singoloprogetto.php",
+        "anchor": "#progetto",
+        "urlimg": "./img/img-centrocommerciale.jpeg",
+        "alt": "Centro commerciale"
+    },
+    {
+        "id": "02",
+        "nome": "Centro Sportivo",
+        "url": "",
+        "anchor": "#progetti",
+        "urlimg": "./img/img-centrosportivo.jpeg",
+        "alt": "Centro sportivo"
+    },
+    {
+        "id": "03",
+        "nome": "Closet Organizer",
+        "url": "",
+        "anchor": "#progetti",
+        "title": "Clicca per vedere il progetto",
+        "urlimg": "./img/img-closetorganizer.jpeg",
+        "alt": "Closet"
+    },
+    {
+        "id": "04",
+        "nome": "Fisioterapia",
+        "url": "",
+        "anchor": "#progetti",
+        "urlimg": "./img/img-fisioterapia.jpeg",
+        "alt": "Fisioterapia"
+    },
+    {
+        "id": "05",
+        "nome": "E-commerce Gioielli",
+        "url": "",
+        "anchor": "#progetti",
+        "urlimg": "./img/img-gioielliecommerce.jpeg",
+        "alt": "Gioielli"
+    },
+    {
+        "id": "06",
+        "nome": "Hotel",
+        "url": "",
+        "anchor": "#progetti",
+        "urlimg": "./img/img-hotel.jpeg",
+        "alt": "Hotel"
+    },
+    {
+        "id": "07",
+        "nome": "Salone da parrucchiera",
+        "url": "",
+        "anchor": "#progetti",
+        "urlimg": "./img/img-parrucchiere.jpeg",
+        "alt": "Salone parrucchiera"
+    },
+    {
+        "id": "08",
+        "nome": "Ristorante",
+        "url": "",
+        "anchor": "#progetti",
+        "urlimg": "./img/img-ristorante.jpeg",
+        "alt": "Ristorante"
+    },
+    {
+        "id": "09",
+        "nome": "Spa",
+        "url": "",
+        "anchor": "#progetti",
+        "urlimg": "./img/img-spa.jpeg",
+        "alt": "Spa"
+    },
+    {
+        "id": "10",
+        "nome": "Videogiochi",
+        "url": "",
+        "anchor": "#progetti",
+        "urlimg": "./img/img-videogiochi.jpeg",
+        "alt": "Videogiochi"
+    },
+    {
+        "id": "11",
+        "nome": "Wedding Planner",
+        "url": "",
+        "anchor": "#progetti",
+        "urlimg": "./img/img-weddingplanner.jpeg",
+        "alt": "Matrimonio"
+    },
+    {
+        "id": "12",
+        "nome": "Yoga",
+        "url": "",
+        "anchor": "#progetti",
+        "urlimg": "./img/img-yoga.jpeg",
+        "alt": "Yoga"
+    }
+]

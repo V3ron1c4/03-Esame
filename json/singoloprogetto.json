@@ -1,0 +1,66 @@
+[
+    {
+        "id": "01",
+        "url": "singoloprogetto.php",
+        "anchor": "#progetto",
+        "title": "Clicca per vedere il sito del centro commerciale",
+        "urlimg": "./img/img-singoloprogetto1.jpeg",
+        "alt": "Centro commerciale"
+    },
+    {
+        "id": "02",
+        "url": "singoloprogetto.php",
+        "anchor": "#progetto",
+        "title": "Clicca per vedere il sito del centro commerciale",
+        "urlimg": "./img/img-singoloprogetto2.jpeg",
+        "alt": "Sito web"
+    },
+    {
+        "id": "03",
+        "url": "singoloprogetto.php",
+        "anchor": "#progetto",
+        "title": "Clicca per vedere il sito del centro commerciale",
+        "urlimg": "./img/img-singoloprogetto3.jpeg",
+        "alt": "Centro commerciale"
+    },
+    {
+        "id": "04",
+        "url": "singoloprogetto.php",
+        "anchor": "#progetto",
+        "title": "Clicca per vedere il sito del centro commerciale",
+        "urlimg": "./img/img-singoloprogetto4.jpeg",
+        "alt": "Sito web"
+    },
+    {
+        "id": "06",
+        "url": "singoloprogetto.php",
+        "anchor": "#progetto",
+        "title": "Clicca per vedere il sito del centro commerciale",
+        "urlimg": "./img/img-singoloprogetto6.jpeg",
+        "alt": "Sito web"
+    },
+    {
+        "id": "07",
+        "url": "singoloprogetto.php",
+        "anchor": "#progetto",
+        "title": "Clicca per vedere il sito del centro commerciale",
+        "urlimg": "./img/img-singoloprogetto7.jpeg",
+        "alt": "Centro commerciale"
+    },
+    {
+        "id": "08",
+        "url": "singoloprogetto.php",
+        "anchor": "#progetto",
+        "title": "Clicca per vedere il sito del centro commerciale",
+        "urlimg": "./img/img-singoloprogetto8.jpeg",
+        "alt": "Cartello open"
+    },
+    {
+        "id": "09",
+        "url": "singoloprogetto.php",
+        "anchor": "#progetto",
+        "title": "Clicca per vedere il sito del centro commerciale",
+        "urlimg": "./img/img-singoloprogetto9.jpeg",
+        "alt": "Centro commerciale"
+    }
+]

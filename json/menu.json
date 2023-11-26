@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "nome": "HOME",
+        "url": "index.php",
+        "anchor":"#home",
+        "class": "nav-menu",
+        "title": "Clicca per tornare alla home"
+    },
+    {
+        "id": 2,
+        "nome": "CHI SONO",
+        "url": "index.php",
+        "anchor":"#chisono",
+        "class": "nav-menu",
+        "title": "Clicca per sapere di cosa mi occupo"
+    },
+    {
+        "id": 3,
+        "nome": "PROGETTI",
+        "url": "index.php",
+        "anchor":"#progetti",
+        "class": "nav-menu",
+        "title": "Clicca per vedere i miei progetti"
+    },
+    {
+        "id": 4,
+        "nome": "CONTATTI",
+        "url": "index.php",
+        "anchor":"#contatti",
+        "class": "nav-menu",
+        "title": "Clicca per contattarmi"
+    },
+    {
+        "id": 5,
+        "nome": "AREA RISERVATA",
+        "url": "login.php",
+        "anchor":"",
+        "class": "nav-menu",
+        "title": "Clicca per entrare nell'area riservata"
+    }
+]
